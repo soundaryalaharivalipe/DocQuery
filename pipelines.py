@@ -1,16 +1,18 @@
 import nltk
 import os
 
-# Ensure the nltk data path is set
-nltk.data.path.append('/Users/lahari/nltk_data')
+# Define a relative directory for NLTK data
+nltk_data_dir = os.path.join(os.getcwd(), 'nltk_data')
 
-# Check and download 'punkt' if necessary
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    print("Downloading 'punkt' resource...")
-    nltk.download('punkt', download_dir='/Users/lahari/nltk_data')
-    nltk.download('punkt_tab', download_dir='/Users/lahari/nltk_data')
+# Ensure the directory exists
+os.makedirs(nltk_data_dir, exist_ok=True)
+
+# Add the directory to NLTK's data path
+nltk.data.path.append(nltk_data_dir)
+
+# Download required NLTK resources
+nltk.download('punkt', download_dir=nltk_data_dir)
+nltk.download('punkt_tab', download_dir=nltk_data_dir)
 
 
 import itertools
