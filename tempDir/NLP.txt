@@ -1,1 +1,0 @@
-  NLP commonly refers to:\n\nNatural language processing, a field of computer science and linguistics\nNeuro-linguistic programming, a pseudoscientific method aimed at modifying human behavior\n\n', metadata={'source': 'https://en.wikipedia.org/wiki/NLP'}) 
