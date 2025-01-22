@@ -223,7 +223,7 @@ def main():
 
 		st.subheader("Dquery bot")
 		st.write('Hello, *World!* :sunglasses:')
-		st.set_option('deprecation.showfileUploaderEncoding', False)
+		#st.set_option('deprecation.showfileUploaderEncoding', False)
 		@st.cache_resource        #cache(allow_output_mutation=True)
 		def load_model(model):
 			if model == "Auto_QnA":
