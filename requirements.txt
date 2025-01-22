@@ -1,0 +1,14 @@
+streamlit==1.18.0
+docx2txt
+wikipedia
+pdfplumber
+#wikipediaapi==0.5.8
+langchain
+scikit-learn
+pathlib
+elasticsearch
+nltk
+python-docx
+torch
+transformers
+sentencepiece
