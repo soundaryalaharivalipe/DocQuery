@@ -10,6 +10,6 @@ pathlib
 elasticsearch
 nltk
 python-docx
-torch
+torch --upgrade
 transformers
 sentencepiece
